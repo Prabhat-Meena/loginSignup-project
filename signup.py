@@ -1,5 +1,6 @@
+# importing json to convert json data into python
 import json
-
+# defining a signup function to signup
 def signup():
     user_name = input("Enter your name: ")
     Email = input("Enter your Email-id: ")
@@ -8,7 +9,7 @@ def signup():
         ac = json.load(f)
         if user_name in ac:
             print("user name is already taken you have to choose another user name and try again ")
-            #option1 = input('Do you want to try again or want to exit for signup again enter "y" or for exit just press enter: ')
+            #option1 = input('Do you want to try again or want to exit for signup again enter "y" or for exit just press anything and enter: ')
             #if option1 == "y":
             #    signup()
             #else:
